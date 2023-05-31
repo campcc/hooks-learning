@@ -147,7 +147,7 @@ Hooks 解决了函数式组件的无状态问题，是目前最主流的组件�
 上面的 HOC 我们也可以使用自定义 hooks 实现，
 
 ```tsx
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 type UseRenderCount = () => number;
 
